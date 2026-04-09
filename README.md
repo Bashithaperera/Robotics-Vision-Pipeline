@@ -21,8 +21,7 @@ This module extracts an object's binary mask using YOLOv11x-seg. It computes the
 
 * **Specific Dependencies:** `ultralytics`, `opencv-python`, `numpy`
 * **How to Run:**
-  `python 2d_perception.py` 
-  *(Note: Replace `2d_perception.py` with the exact name of your C1 script)*
+  `grasp_detect.py` 
 * **Expected Output:** An annotated 2D image displaying the bounding box, a red centroid dot, and a green vector indicating the principal axis.
 
 ### Section C2: 3D Grasp Estimation

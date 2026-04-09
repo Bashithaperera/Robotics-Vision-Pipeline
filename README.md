@@ -21,7 +21,7 @@ This module extracts an object's binary mask using YOLOv11x-seg. It computes the
 
 * **Specific Dependencies:** `ultralytics`, `opencv-python`, `numpy`
 * **How to Run:**
-  `grasp_detect.py` 
+  Use the dataset in the images folder to run `grasp_detect.py` 
 * **Expected Output:** An annotated 2D image displaying the bounding box, a red centroid dot, and a green vector indicating the principal axis.
 
 ### Section C2: 3D Grasp Estimation
@@ -29,7 +29,7 @@ This module deprojects 2D YOLO masks into a 3D point cloud using a 16-bit depth 
 
 * **Specific Dependencies:** `ultralytics`, `open3d`, `numpy`, `opencv-python`
 * **How to Run:**
-  `python grasp_depth.py`
+  Use the RGB1 and depth1 images to run the `python grasp_depth.py`
 * **Expected Output:** An interactive Open3D window displaying the segmented point cloud. The isolated grasp surface is highlighted in red, with a blue vector arrow indicating the perpendicular approach angle. You can use your mouse to rotate the 3D scene.
 
 ### Section C3: Image-Based Visual Servoing (IBVS)

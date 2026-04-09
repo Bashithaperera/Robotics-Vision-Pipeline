@@ -11,7 +11,7 @@ Install all required dependencies for the entire pipeline using the following co
 `pip install numpy opencv-python opencv-contrib-python matplotlib ultralytics open3d`
 
 *Note: You **must** install `opencv-contrib-python` (not just `opencv-python`) to access the `cv2.aruco` modules required for Section C3.*
-
+Please find the code walthrough video for all 3 sections: https://drive.google.com/file/d/1qcKh3uv_UpyAeojQhDGqQA8o90xmaeaZ/view?usp=sharing
 ---
 
 ## 🚀 Pipeline Modules & Execution Guide
